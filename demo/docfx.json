@@ -1,0 +1,54 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "getting-started/**.md",
+          "getting-started/**/toc.yml",
+          "toc.yml",
+          "*.md",
+          "api/**.md",
+          "api/**/toc.yml"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          ".attachments/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "../material"
+    ],
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "globalMetadata": {
+      "_appFooter": "<span>Copyright © easyli</span>",
+      "_appTitle": "MicrosoftFX",
+      "_enableSearch": "true",
+      "_disableContribution": "true",
+      "_gitContribute": {
+        "repo": "https://github.com/easyli/MicrosoftFX"
+      },
+      "_gitUrlPattern": "github"
+    },
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  },
+  "sitemap":
+  {
+    "baseUrl": "https://easyli.github.io/MicrosoftFX"
+  }
+}
