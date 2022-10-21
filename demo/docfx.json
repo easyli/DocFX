@@ -34,11 +34,11 @@
     ],
     "globalMetadata": {
       "_appFooter": "<span>Copyright © easyli</span>",
-      "_appTitle": "MicrosoftFX",
+      "_appTitle": "DocFX",
       "_enableSearch": "true",
       "_disableContribution": "true",
       "_gitContribute": {
-        "repo": "https://github.com/easyli/MicrosoftFX"
+        "repo": "https://github.com/easyli/DocFX"
       },
       "_gitUrlPattern": "github"
     },
@@ -49,6 +49,6 @@
   },
   "sitemap":
   {
-    "baseUrl": "https://easyli.github.io/MicrosoftFX"
+    "baseUrl": "https://easyli.github.io/DocFX"
   }
 }
